@@ -1,1 +1,7 @@
 .vercel
+# Ignorar o ambiente virtual
+venv/
+# Ignorar arquivos de sistema
+*.log
+*.pyc
+__pycache__/
