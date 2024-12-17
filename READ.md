@@ -18,8 +18,9 @@ Envie uma mensagem via e-mail para tirar suas dúvidas.
 
 ***Tecnologias Utilizadas***
 
-***Linguagens:*** Python, CSS, HTML e um arquivo JSON.
-***Programas:*** Git, Visual Code, NodeJS, Vercel, GitHub e Prompt de comando.
+**Linguagens:** Python, CSS, HTML e um arquivo JSON
+
+**Programas:** Git, Visual Code, NodeJS, Vercel, GitHub e Prompt de comando
 
 ***Passo a Passo para Rodar a Aplicação***
 
