@@ -2,7 +2,7 @@ Trabalho Projeto Integrador 2024
 
 Apresentação Breve
 
-Uma aplicação web desenvolvida em Pyhton, HTML e CSS. Feito para ajudar o usuário a descobrir os requisitos mínimos e recomendados de um jogo e saber se roda ou não em seu computador. Além de fornecer um canal de ajuda para comunicação com o usuário via e-mail
+Uma aplicação web desenvolvida em Python, HTML e CSS. Feita para ajudar o usuário a descobrir os requisitos mínimos e recomendados de um jogo e saber se roda ou não em seu computador. Além disso, fornece um canal de ajuda para comunicação com o usuário via e-mail.
 
 Objetivo
 
@@ -12,71 +12,124 @@ Funcionalidades
 
 Escolha um jogo da lista no menu principal.
 
-Descubra as requisições mínimas e recomendadas do jogo escolhido.
+Descubra as requisitões mínimas e recomendadas do jogo escolhido.
 
 Envie uma mensagem via e-mail para tirar suas dúvidas.
 
-Passo a passo para rodar a aplicação
+Tecnologias Utilizadas
 
-abra seu git e crie uma pasta
+Linguagens: Python, CSS, HTML e um arquivo JSON.Programas: Git, Visual Code, NodeJS, Vercel, GitHub e Prompt de comando.
+
+Passo a Passo para Rodar a Aplicação
+
+Abra seu Git e crie uma pasta:
+```bash
 mkdir <nome da sua pasta>
-
-use o seguinte comando para localizar sua pasta:
+```
+Navegue até a pasta criada:
+```bash
 cd <nome da sua pasta>
-
-após isso clone o repositório dentro dessa pasta
+```
+Clone o repositório:
+```bash
 git clone https://github.com/DuuHwp/AgoraVai.git
+```
+Crie uma conta no Vercel e vincule ao GitHub:https://vercel.com/
 
-Agora crie uma conta no Vercel linkando sua conta no github:
-https://vercel.com/
+Volte ao Git e crie um repositório no GitHub. Commite a pasta clonada:
 
-Agora voltamos ao Git, para facilitar, você irá criar um repositório no github e commitar essa pasta que você clonou.
 Configure seu usuário:
+```bash
 git config --global user.name "Seu Nome"
+```
+```bash
 git config --global user.email "seu-email@exemplo.com"
-
-Agora garanta que esteja no diretório da pasta que você criou:
-cd <nome da sua pasta>
-
-Inicialize o repositório Git localmente:
+```
+Inicialize o repositório:
+```bash
 git init
-
-Pegue o link do repositório remoto que foi criado no GitHub e conecte o repositório local ao remoto:
+```
+```bash
 git remote add origin <seu link remoto>
-
-Adicione e commite os arquivos.
-Adicione todos os arquivos/pastas ao Git:
+```
+Adicione e commite os arquivos:
+```bash
 git add .
-
-Crie o commit:
+```
+```bash
 git commit -m "Sua mensagem"
-
-Envie para o GitHub (push)
-Envie as mudanças para o repositório remoto:
+```
+```bash
 git push -u origin master
-
-Obs.: Em repositórios mais novos, o branch pode ser chamado main ao invés de master. Caso dê erro, tente:
+```
+Obs.: Caso o branch seja main, use:
+```bash
 git push -u origin main
+```
+Instale o NodeJS:Download NodeJS
 
-Pronto! Com isso realizado, iremos fazer o download do NodeJS:
-https://nodejs.org/en/download/prebuilt-installer
-Pode fazer o download do mais recente e a instalação que é bem intuitiva sem problemas.
+Abra o CMD na pasta do projeto (onde está o app.py) e execute os seguintes comandos:
 
-Com isso feito. Vamos realizar alguns comandos. Abra a pasta de origem do projeto, ou seja, o local onde se encontra o arquivo 'app.py'. Estando lá, você irá
-clicar no endereçamento que normalmente fica na parte superior (a parte onde mostra o caminho da pasta) e lá você irá digitar 'cmd' e apertar 'Enter' no seu teclado.
-
-Com o cmd aberto, você irá digitar o primeiro comando:
+Instale o Vercel:
+```bash
 npm i -g vercel
-
-Agora espere a instalação dos pacotes para prosseguir.
-Feito isso, vamos criar nosso ambiente virtual, digite:
+```
+Crie e ative um ambiente virtual:
+```bash
 python -m venv venv
-
-Espere alguns segundos enquanto cria, e na sequência iremos ativar esse ambiente utilizando o seguinte código:
+```
+```bash
 venv\scripts\activate
-
-Agora instaralemos o flask:
+```
+Instale o Flask e dependências:
+```bash
 pip install flask
-
-Se por acaso aparecer algum erro de versão do pip basta copiar e colar o comando em verde que irá aparecer no terminal, ou copie por aqui:
+```
+```bash
+pip install -r requirements.txt
+```
+Se houver erro no pip, atualize com:
+```bash
 python.exe -m pip install --upgrade pip
+```
+Execute o Vercel para deploy:
+```bash
+vercel
+```
+Realize login pelo GitHub.
+
+Após isso, voltando para o 'cmd', estará a mensagem de 'Set up and deploy <a pasta do projeto>' Você digitará 'y' e aperte 'Enter'
+
+Agora aparecerá o nome que você cadastrou no Vercel, não tem como alterar pelo cmd, então apenas aperte 'Enter'
+
+Agora irá perguntar se existe link no projeto, pode digitar 'n' e apertar 'Enter'
+
+E agora ele irá perguntar qual será o nome do projeto. Lembrando que não pode letras maiúsculas, então darei um nome de recomendação:
+```bash
+projeto-pi-match-games
+```
+Copie esse nome para o nome do projeto, se for de seu agrado.
+
+Depois disso irá perguntar em qual diretório está localizado, como já estamos trabalhando na pasta, basta apertar 'Enter'
+
+Agora ele irá perguntar se precisa fazer algumas modificações em alguns comandos, pode digitar 'n' e apertar 'Enter'
+
+Agora basta esperar ele fazer o deploy e o building da aplicação, que irá disponibilizar o link para você:
+
+Pelo link Inspect, clique em Visit ou na miniatura da aplicação para acessá-la.
+
+Pelo link Production ou Preview, você entrará direto na aplicação.
+
+Obs.: Caso ocorra erro 500, certifique-se de que o banco de dados PostgreSQL esteja ligado.
+
+Conclusão
+
+Pronto! A aplicação está configurada. Agora você pode:
+
+Escolher um jogo para verificar suas especificações mínimas e recomendadas.
+
+Clicar no ponto de interrogação no canto inferior direito para preencher o canal de comunicação via e-mail.
+
+Projeto Integrador 2024 - Sistema desenvolvido para facilitar a vida dos gamers!
+
+Desenvolvido por: Eduardo Ternoski de Camargo, Murilo Henrique do Nascimento e César Andrade 
