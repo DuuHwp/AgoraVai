@@ -21,4 +21,62 @@ Passo a passo para rodar a aplicação
 abra seu git e crie uma pasta
 mkdir <nome da sua pasta>
 
+use o seguinte comando para localizar sua pasta:
+cd <nome da sua pasta>
+
 após isso clone o repositório dentro dessa pasta
+git clone https://github.com/DuuHwp/AgoraVai.git
+
+Agora crie uma conta no Vercel linkando sua conta no github:
+https://vercel.com/
+
+Agora voltamos ao Git, para facilitar, você irá criar um repositório no github e commitar essa pasta que você clonou.
+Configure seu usuário:
+git config --global user.name "Seu Nome"
+git config --global user.email "seu-email@exemplo.com"
+
+Agora garanta que esteja no diretório da pasta que você criou:
+cd <nome da sua pasta>
+
+Inicialize o repositório Git localmente:
+git init
+
+Pegue o link do repositório remoto que foi criado no GitHub e conecte o repositório local ao remoto:
+git remote add origin <seu link remoto>
+
+Adicione e commite os arquivos.
+Adicione todos os arquivos/pastas ao Git:
+git add .
+
+Crie o commit:
+git commit -m "Sua mensagem"
+
+Envie para o GitHub (push)
+Envie as mudanças para o repositório remoto:
+git push -u origin master
+
+Obs.: Em repositórios mais novos, o branch pode ser chamado main ao invés de master. Caso dê erro, tente:
+git push -u origin main
+
+Pronto! Com isso realizado, iremos fazer o download do NodeJS:
+https://nodejs.org/en/download/prebuilt-installer
+Pode fazer o download do mais recente e a instalação que é bem intuitiva sem problemas.
+
+Com isso feito. Vamos realizar alguns comandos. Abra a pasta de origem do projeto, ou seja, o local onde se encontra o arquivo 'app.py'. Estando lá, você irá
+clicar no endereçamento que normalmente fica na parte superior (a parte onde mostra o caminho da pasta) e lá você irá digitar 'cmd' e apertar 'Enter' no seu teclado.
+
+Com o cmd aberto, você irá digitar o primeiro comando:
+npm i -g vercel
+
+Agora espere a instalação dos pacotes para prosseguir.
+Feito isso, vamos criar nosso ambiente virtual, digite:
+python -m venv venv
+
+Espere alguns segundos enquanto cria, e na sequência iremos ativar esse ambiente utilizando o seguinte código:
+venv\scripts\activate
+
+Agora instaralemos o flask:
+pip install flask
+
+Se por acaso aparecer algum erro de versão do pip basta copiar e colar o comando em verde que irá aparecer no terminal, ou copie por aqui:
+python.exe -m pip install --upgrade pip
