@@ -127,7 +127,7 @@ Pelo link Production ou Preview, você entrará direto na aplicação.
 
 Obs.: Caso ocorra erro 500, certifique-se de que o banco de dados PostgreSQL esteja ligado.
 
-***Conclusão***
+## Conclusão
 
 Pronto! A aplicação está configurada. Agora você pode:
 
@@ -135,6 +135,6 @@ Escolher um jogo para verificar suas especificações mínimas e recomendadas.
 
 Clicar no ponto de interrogação no canto inferior direito para preencher o canal de comunicação via e-mail.
 
-Projeto Integrador 2024 - Sistema desenvolvido para facilitar a vida dos gamers!
+## Projeto Integrador 2024 - Sistema desenvolvido para facilitar a vida dos gamers!
 
-Desenvolvido por: Eduardo Ternoski de Camargo, Murilo Henrique do Nascimento e César Andrade 
+## Desenvolvido por: Eduardo Ternoski de Camargo, Murilo Henrique do Nascimento e César Andrade 
