@@ -1,14 +1,14 @@
 # Trabalho Projeto Integrador 2024
 
- ***## Apresentação Breve***
+ ***Apresentação Breve***
 
 Uma aplicação web desenvolvida em Python, HTML e CSS. Feita para ajudar o usuário a descobrir os requisitos mínimos e recomendados de um jogo e saber se roda ou não em seu computador. Além disso, fornece um canal de ajuda para comunicação com o usuário via e-mail.
 
- ***## Objetivo***
+ ***Objetivo***
 
 Evitar que o usuário adquira um jogo no qual o computador dele não tenha o hardware necessário para rodá-lo.
 
-***## Funcionalidades***
+***Funcionalidades***
 
 Escolha um jogo da lista no menu principal.
 
@@ -16,12 +16,12 @@ Descubra as requisitões mínimas e recomendadas do jogo escolhido.
 
 Envie uma mensagem via e-mail para tirar suas dúvidas.
 
-***## Tecnologias Utilizadas***
+***Tecnologias Utilizadas***
 
 ***Linguagens:*** Python, CSS, HTML e um arquivo JSON.
 ***Programas:*** Git, Visual Code, NodeJS, Vercel, GitHub e Prompt de comando.
 
-***## Passo a Passo para Rodar a Aplicação***
+***Passo a Passo para Rodar a Aplicação***
 
 Abra seu Git e crie uma pasta:
 ```bash
@@ -125,7 +125,7 @@ Pelo link Production ou Preview, você entrará direto na aplicação.
 
 Obs.: Caso ocorra erro 500, certifique-se de que o banco de dados PostgreSQL esteja ligado.
 
-***## Conclusão***
+***Conclusão***
 
 Pronto! A aplicação está configurada. Agora você pode:
 
