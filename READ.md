@@ -70,6 +70,7 @@ Obs.: Caso o branch seja main, use:
 git push -u origin main
 ```
 Instale o NodeJS:
+
 [Download NodeJS](https://nodejs.org/en/download/prebuilt-installer)
 
 Abra o CMD na pasta do projeto (onde está o app.py) e execute os seguintes comandos:
