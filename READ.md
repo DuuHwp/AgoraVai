@@ -23,7 +23,7 @@ Linguagens: Python, CSS, HTML e um arquivo JSON.Programas: Git, Visual Code, Nod
 Passo a Passo para Rodar a Aplicação
 
 Abra seu Git e crie uma pasta:
-bash```
+```bash
 mkdir <nome da sua pasta>
 ```
 Navegue até a pasta criada:
